@@ -1,0 +1,8 @@
+{
+  "name": "electron-react-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chie4hao/electron-react-test.git",
+  "author": "chie_4 <w310930920@gmail.com>",
+  "license": "MIT"
+}
