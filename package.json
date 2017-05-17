@@ -5,8 +5,8 @@
   "author": "chie_4 <w310930920@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node -r babel-register ./node_modules/webpack-dev-server/bin/webpack-dev-server --config webpack.config.build.js",
-    "dev": "electron -r babel-register ./app/main.dev",
+    "dev": "node -r babel-register ./node_modules/webpack-dev-server/bin/webpack-dev-server --config webpack.config.dev.js",
+    "dev1": "electron -r babel-register ./app/main.dev",
     "start-hot-renderer": "cross-env HOT=1 NODE_ENV=development electron -r babel-register ./app/main.dev"
   },
   "devDependencies": {
@@ -27,7 +27,6 @@
     "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.0.1",
-    "flow-bin": "^0.46.0",
     "style-loader": "^0.17.0",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
